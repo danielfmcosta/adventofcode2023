@@ -1,4 +1,4 @@
-file = open("C:/Users/costa/OneDrive/Documentos/Programming/Extras/adventcode23/day01/input.txt", "r")
+file = open("C:/Users/costa/OneDrive/Documentos/Programming/Extras/adventofcode2023/day01/input.txt", "r")
 content = file.readline().strip('\n')
 fnum, lnum, sum, temp = '0', '0', 0, 0
 digits1 = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]

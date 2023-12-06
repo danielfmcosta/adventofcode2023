@@ -1,4 +1,4 @@
-file = open("C:/Users/costa/OneDrive/Documentos/Programming/Extras/adventcode23/day02/input.txt", "r")
+file = open("C:/Users/costa/OneDrive/Documentos/Programming/Extras/adventofcode2023/day02/input.txt", "r")
 content = file.readline().strip('\n')[5:]
 ans=0
 while content:
