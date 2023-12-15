@@ -25,5 +25,5 @@ while content:
 
 for i in range(len(num_cards)):
     tot_cards += num_cards[i]
-print(tot_cards-1)
+print(tot_cards -1)
 file.close()
