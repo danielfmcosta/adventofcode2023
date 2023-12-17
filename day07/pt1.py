@@ -11,7 +11,7 @@ lines = content.split('\n')
 
 def strength(hand):
     hand = hand.replace('T', chr(ord('9')+1))
-    hand = hand.replace('J', chr(ord('2')-1))
+    hand = hand.replace('J', chr(ord('9')+2))
     hand = hand.replace('Q', chr(ord('9')+3))
     hand = hand.replace('K', chr(ord('9')+4))
     hand = hand.replace('A', chr(ord('9')+5))
