@@ -16,7 +16,6 @@ def ext_values(history):
         aux=diff_list(aux)
     for i in range(1, len(last_values), 2):
         last_values[i] = last_values[i]*(-1)
-    print(last_values)
     ans = sum(last_values)
     return ans
 
